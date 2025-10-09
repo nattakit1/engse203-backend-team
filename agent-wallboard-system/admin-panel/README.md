@@ -1,46 +1,24 @@
-# Task#1: User Management System
+# admin-panel
+# Installation
 
-## Overview
-Implementation of User Management system with login without password.
 
-## Features Implemented
-- ✅ Create new users
-- ✅ Edit existing users
-- ✅ Delete users (soft delete)
-- ✅ List users with filtering
-- ✅ Login without password (Admin only)
-- ✅ Form validation (client + server)
-
-## Setup Instructions
-
-### Prerequisites
-- Node.js v18+
-- SQLite3
-- npm
-
-### Installation
-1. Database setup
-   - cd database/sqlite
-   - sqlite3 wallboard.db < ../scripts/01-create-users-table.sql
-   - sqlite3 wallboard.db < ../scripts/02-insert-sample-users.sql
-
-2. cd backend-server
+# cd backend-server
     - npm install
     - npm run dev
 
-3. Frontend
+# Frontend
     - cd admin-panel
     - npm install
     - npm start
 
-### API Endpoints
-    GET /api/users - Get all users
-    POST /api/users - Create user
-    PUT /api/users/:id - Update user
-    DELETE /api/users/:id - Delete user
-    POST /api/auth/login - Login
 
 ## test
-<img width="1919" height="916" alt="image" src="https://github.com/user-attachments/assets/796419ef-d085-4125-a57a-a958a8b49ac8" />
-<img width="1141" height="245" alt="image" src="https://github.com/user-attachments/assets/91e74d8f-1757-4bdf-90e9-c38ace332c8d" />
-<img width="1580" height="348" alt="image" src="https://github.com/user-attachments/assets/e748386e-ee12-4764-8fa1-1dcc23ce32e1" />
+<img width="1569" height="756" alt="image" src="https://github.com/user-attachments/assets/8cadb668-f574-46f7-b82f-c57b2acae974" />
+
+<img width="1549" height="756" alt="image" src="https://github.com/user-attachments/assets/6645c3c3-0348-4ac1-a3df-15bda40d03cb" />
+
+<img width="628" height="666" alt="image" src="https://github.com/user-attachments/assets/c353755f-70a3-4dc2-a274-1850c951aef3" />
+
+<img width="1383" height="176" alt="image" src="https://github.com/user-attachments/assets/3879f44c-ff42-4a70-844a-8a70e19f4e41" />
+
+<img width="345" height="193" alt="image" src="https://github.com/user-attachments/assets/79b0f883-f1e5-4e8c-a88e-88b94b9918af" />
