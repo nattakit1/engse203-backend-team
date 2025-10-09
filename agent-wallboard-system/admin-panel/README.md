@@ -1,7 +1,4 @@
 # admin-panel
-# Installation
-
-
 # cd backend-server
     - npm install
     - npm run dev
